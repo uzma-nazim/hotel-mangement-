@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mynav{
+    background-color: #140028!important;
+}
+.heading{
+    padding: 10px;
+    padding-left: 25px;
+}
+.heading h3{
+    color:    rgb(21, 21, 21)!important;
+    z-index: 99;
+}
+.homeIcon{
+    color:  gray !important;
+    font-size: 21px;
+
+}
+.dasboardmain{
+    background-color: rgb(229, 229, 229 ,0.5);
+    height: 110vh;
+    padding: 20px;
+    
+}
+.noBooking{
+    background-color: #fff;
+    padding: 15px 0px;
+    border: 2px solid rgb(128, 128, 128 ,0.3);
+    padding:9px 15px;
+    border-radius: 6px;
+    margin: 10px 30px;
+}
+.noBooking h5{
+    padding-top: 15px;
+    padding-left: 9px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: gray;
+
+
+}
+.bookTable{
+    margin: 30px;
+}
+.linkColor{
+    color: #555050!important;
+    text-decoration: none;
+}
+.bookTable h1{
+    font-size: 30px;
+    color: #555050;
+    margin: 20px 0px;
+
+}
+
+
+.profileContainer{
+    background-color:  rgb(255, 255, 255 ,0.3);
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: #fff;
+    /* border: 1px solid gray; */
+    border-radius: 4px;
+    width: 100%;
+ 
+}
+.userDetails{
+    
+}
+.profileContainer{
+    margin: 4px;
+    width: 250px;
+    
+    height:250px;
+    border-radius:20px;
+    background-color: rgb(255, 255, 255 ,0.8);
+    
+    border: 1px solid rgb(128, 128, 128 ,0.3);
+    text-align: center;
+}
+.profileContainer img{
+    padding: 7px;
+    border-radius:50%;
+}
+.profileavtar p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 21px; 
+    background-image: linear-gradient(
+        155deg,
+        hsl(332deg 70% 44%) 0%,
+        hsl(330deg 71% 41%) 11%,
+        hsl(328deg 72% 38%) 22%,
+        hsl(326deg 73% 36%) 33%,
+        hsl(324deg 74% 33%) 44%,
+        hsl(322deg 75% 30%) 56%,
+        hsl(320deg 76% 28%) 67%,
+        hsl(317deg 77% 25%) 78%,
+        hsl(314deg 78% 23%) 89%,
+        hsl(312deg 79% 21%) 100%
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.details{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.details div{
+    /* margin-right: 120px; */
+}
+
+.details h5{
+    font-weight:700;
+    color: #140028;
+}
+.details p{
+    line-height:20px;
+    color: gray;
+}
+.detailsForm{
+    background-color: #fff;
+    padding: 20px;
+}
+.save{
+    width: 100%;
+    background-image: linear-gradient(
+        155deg,
+        hsl(332deg 70% 44%) 0%,
+        hsl(330deg 71% 41%) 11%,
+        hsl(328deg 72% 38%) 22%,
+        hsl(326deg 73% 36%) 33%,
+        hsl(324deg 74% 33%) 44%,
+        hsl(322deg 75% 30%) 56%,
+        hsl(320deg 76% 28%) 67%,
+        hsl(317deg 77% 25%) 78%,
+        hsl(314deg 78% 23%) 89%,
+        hsl(312deg 79% 21%) 100%
+      ) !important;
+      border: none !important;
+}

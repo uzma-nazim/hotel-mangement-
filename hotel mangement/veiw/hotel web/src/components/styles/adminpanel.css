@@ -1,0 +1,10 @@
+.addhotel{
+    display: flex;
+    justify-content: center;
+}
+.addhotel button{
+    background-color: rgb(128, 128, 128 ,0.8) !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: #ffff !important;
+}
